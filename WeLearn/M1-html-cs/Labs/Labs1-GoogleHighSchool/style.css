@@ -16,11 +16,13 @@
 
 body {
   margin: 0px;
+  background-image: url("https://i.kym-cdn.com/photos/images/masonry/001/244/961/9f7.png")
 }
+
 
 #header {
   color: white;
-  background-color: #4a75e6;
+  background-color: #22D3DD;
   font-size: 20px;
   height: 200px;
   margin: 0px;
@@ -36,10 +38,10 @@ body {
 }
 
 .link {
-  color: grey;
+  color: black;
   display: inline-block;
   font-weight: bold;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 2%;
+  margin-top: 1%;
 }
