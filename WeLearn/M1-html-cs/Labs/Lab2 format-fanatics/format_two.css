@@ -16,7 +16,8 @@
 
 .container {
   display:grid;
-  /* Style the template for the grid */
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
 }
 
 /* Making border black */
@@ -25,11 +26,48 @@
 }
 
 #title {
-  grid-column: span 12;
+  grid-column: 2/8;
 }
 
 .photo {
-  grid-column: /*insert format*/;
+  grid-row: 2/5;
+  grid-column:
 }
-
+.photo1 {
+grid-column: 2/2;
+grid-row: 3/4;
+}
+.photo2{
+  grid-column: 3/3;
+  grid-row: 3/4;
+}
+.phtot3{
+  grid-column: 4/4;
+   grid-row: 3/4;
+}
 /* Style remaining grid elements */
+.borderleft{
+  grid-row: 1/8;
+  grid-column: 1;
+}
+.borderright{
+  grid-row: 1/8;
+  grid-column: 8;
+}
+.bordertop{
+  grid-row: 1;
+  grid-column: 2/8;
+}
+.borderbottom{
+  grid-row: 8;
+  grid-columns: 1/8;
+}
+.caption{
+  grid-row: 6;
+grid-column: 2/6;
+}
+.date{
+  grid-column: 6;
+  grid-row: 6/8;
+
+}
