@@ -17,11 +17,37 @@
 # else:
 #     print("Hero not found.")
 
-names = ["Rickon", "Bran", "Arya", "Sansa", "Jon", "Robb"]
+# names = ["Rickon", "Bran", "Arya", "Sansa", "Jon", "Robb"]
 
 # Slice of the entire list from beginning to end, except reversed:# => ["Robb", "Jon", "Sansa", "Arya", "Bran", "Rickon"]
 
-print(names[::-1])
-# slice of reversed list, starting
-print(names[4:2:-1])
-print(names[::2])
+# print(names[::-1])
+# # slice of reversed list, starting
+# print(names[4:2:-1])
+# print(names[::2])
+
+state1 = "New York"
+abb1 = "NY"
+state2 = "California"
+abb2 = "CA"
+state3 = "Texas"
+abb3 = "TX"
+print(abb2, " is short for ", state2)
+labeled_states = ["NY: New York", "CA: California", "TX: Texas"]
+
+print(labeled_states[1])
+states = ["New York", "California", "Texas"]
+abbvs = ["NY", "CA", "TX"]
+
+print(abbvs[1] + " is short for " + states[1])
+
+states = {"NY": "New York", "CA": "California", "TX": "Texas"}
+
+states = {
+"NY": "New York",
+"CA": "California",
+"TX": "Texas"
+}
+
+for abbreviation in states:
+    print (abbreviation + " is short for " + states[abbreviation])
